@@ -33,3 +33,10 @@ class QuestionBank {
 	}
 }
 
+struct EnglishSkill {
+	let elementary = "Elementary"
+	let preIntermediate = "Pre Intermediate"
+	let intermediate = "Intermediate"
+	let upperIntermediate = "Upper Intermediate"
+	let advanced = "Advanced"
+}
