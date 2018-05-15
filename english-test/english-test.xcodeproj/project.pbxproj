@@ -13,6 +13,7 @@
 		E90BC3C220AA325C001EE331 /* english_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E90BC3C020AA325C001EE331 /* english_test.xcdatamodeld */; };
 		E90BC3C420AA325C001EE331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90BC3C320AA325C001EE331 /* Assets.xcassets */; };
 		E90BC3C720AA325C001EE331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90BC3C520AA325C001EE331 /* LaunchScreen.storyboard */; };
+		E9A844A620AB803400615C9B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A844A520AB803400615C9B /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E90BC3C320AA325C001EE331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E90BC3C620AA325C001EE331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E90BC3C820AA325C001EE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A844A520AB803400615C9B /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E90BC3C520AA325C001EE331 /* LaunchScreen.storyboard */,
 				E90BC3C820AA325C001EE331 /* Info.plist */,
 				E90BC3C020AA325C001EE331 /* english_test.xcdatamodeld */,
+				E9A844A520AB803400615C9B /* Question.swift */,
 			);
 			path = "english-test";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E90BC3BC20AA325C001EE331 /* ViewController.swift in Sources */,
+				E9A844A620AB803400615C9B /* Question.swift in Sources */,
 				E90BC3C220AA325C001EE331 /* english_test.xcdatamodeld in Sources */,
 				E90BC3BA20AA325C001EE331 /* AppDelegate.swift in Sources */,
 			);
