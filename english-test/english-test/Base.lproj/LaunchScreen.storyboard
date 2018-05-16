@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,18 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="13v-Cu-Nrd">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1024" translatesAutoresizingMaskIntoConstraints="NO" id="Blo-gf-Z0b">
+                                <rect key="frame" x="100" y="224" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="IyO-PV-gZj"/>
+                                    <constraint firstAttribute="height" constant="120" id="JVn-zJ-CLp"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.027450980392156862" green="0.027450980392156862" blue="0.027450980392156862" alpha="1" colorSpace="calibratedRGB"/>
@@ -27,7 +34,9 @@
                             <constraint firstItem="13v-Cu-Nrd" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="FL0-hH-3Mx"/>
                             <constraint firstItem="13v-Cu-Nrd" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TNE-HB-BWh"/>
                             <constraint firstItem="13v-Cu-Nrd" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Vpg-ul-sgK"/>
+                            <constraint firstItem="Blo-gf-Z0b" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="YNB-YR-4Ea"/>
                             <constraint firstItem="13v-Cu-Nrd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hTD-ip-QzT"/>
+                            <constraint firstItem="Blo-gf-Z0b" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tWi-ee-c66"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -39,6 +48,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1024" width="1024" height="1024"/>
         <image name="bg" width="828" height="1472"/>
     </resources>
 </document>
