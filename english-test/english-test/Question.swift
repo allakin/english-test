@@ -34,6 +34,7 @@ class QuestionBank {
 }
 
 struct EnglishSkill {
+	let beginner = "Beginner"
 	let elementary = "Elementary"
 	let preIntermediate = "Pre Intermediate"
 	let intermediate = "Intermediate"

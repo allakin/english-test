@@ -66,15 +66,17 @@ class ViewController: UIViewController {
 	
 	private func skillSetting () -> String {
 		var skills = ""
-		if correcrAnswerNumber <= 10 {
+		if correcrAnswerNumber <= 4 {
+			skills = skill.beginner
+		} else if correcrAnswerNumber >= 5 && correcrAnswerNumber <= 22 {
 			skills = skill.elementary
-		} else if correcrAnswerNumber >= 11 && correcrAnswerNumber <= 20 {
+		} else if correcrAnswerNumber >= 23 && correcrAnswerNumber <= 31 {
 			skills = skill.preIntermediate
-		} else if correcrAnswerNumber >= 21 && correcrAnswerNumber <= 30 {
+		} else if correcrAnswerNumber >= 32 && correcrAnswerNumber <= 40 {
 			skills = skill.intermediate
-		} else if correcrAnswerNumber >= 31 && correcrAnswerNumber <= 40 {
+		} else if correcrAnswerNumber >= 41 && correcrAnswerNumber <= 46 {
 			skills = skill.upperIntermediate
-		} else if correcrAnswerNumber >= 41 && correcrAnswerNumber <= 50 {
+		} else if correcrAnswerNumber >= 47 && correcrAnswerNumber <= 50 {
 			skills = skill.advanced
 		}
 		return skills
