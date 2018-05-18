@@ -8,4 +8,4 @@
 
 ### Видео
 
-[![Vimeo](https://raw.githubusercontent.com/bystritskiy/HardcoreTap/master/Media/youtube.png)](https://vimeo.com/270735851)
+![Vimeo](https://vimeo.com/270735851)
