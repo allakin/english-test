@@ -70,16 +70,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yr4-bc-WCf">
-                                <rect key="frame" x="24" y="116" width="280" height="158"/>
+                                <rect key="frame" x="24" y="116" width="280" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="158" id="IyX-ja-LiT"/>
+                                    <constraint firstAttribute="height" constant="100" id="IyX-ja-LiT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.97647058819999999" green="0.23529411759999999" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Количество вопросов: 1 / 50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHw-gD-kma">
-                                <rect key="frame" x="20" y="299" width="280" height="21"/>
+                                <rect key="frame" x="20" y="241" width="280" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="o6H-pS-To0"/>
                                 </constraints>
